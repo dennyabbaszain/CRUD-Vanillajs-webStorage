@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Poppins';
+    background: url('./../assets/undraw_Bibliophile_hwqc.svg');
+    font-weight: bold;
+   background-size: contain;
+    font-size: large;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+input{
+    margin: 6px ;
+    padding: 5px;
+    display: block;
+   border-radius: 5px;
+   border:solid #32a1ce;
+}
+
+header{
+    margin-top: 20px;
+    color: rgb(15, 15, 15);
+}
+img{
+    width:20px;
+    height: 20px;
+}
+
+h4,h5,h6{
+    margin-left: 10px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.black{
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 16px;
+    
+}
+
+#form{
+    margin-top: 160px;
+    column-width: 300px;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: linear-gradient(to right, #ff00cc, #333399);
+   color: white;
+    
+   
+}
+#check{
+    display: inline-block;
+    margin-top: -5px;
+}
+
+.submit-btn{
+    text-align: center;
+    margin: 7px;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+   
+
+}
+
+.submit-btn:hover{
+    /* background-image: url('./../assets/add.png') no-repeat; */
+    background-size: 20px;
+    margin: 7px;
+    display: block;
+    animation-name:slowMo;
+    animation-duration: 2s;
+   
+}
+
+
+.library{
+    margin: 20px 20px;
+    border-radius: 16px;
+    
+}
+
+.box{
+    width: 99%;
+    height: fit-content;
+    padding: 10px;
+    color: white;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: linear-gradient(to right, #ff00cc, #333399);
+   
+}
+.box > h3{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.box-true{
+    margin-top: 20px;
+}
+
+.box-list{
+    margin-top: 30px;
+    margin: 5px;
+    width: 270px;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 15px;
+    border-radius: 16px;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.10) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.box-list>h3{
+    margin: 8px;
+}
+.inline-author>label,.inline-year>label{
+    font-size: 13px;
+}
+
+.inline-author,.inline-year{
+    display: flex;
+    align-items: baseline;
+    margin-left:7px;
+}
+
+
+.list-item{
+    margin: 20px 0 0 40px;
+    text-align: left;
+}
+
+.book-btn{
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+
+.book-btn:hover{
+    animation-name:slowMo;
+    animation-duration: 2s;
+    cursor: pointer;
+}
+
+
+.search-box{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 16px;
+    padding: 20px;
+   margin: 40px 0 0 20px;
+ 
+}
+
+.search-box>input{
+    display: inline-block;
+}
+.search-box>button{
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 9px;
+    
+}
+.search-box>button:hover{
+    animation-name:slowMo;
+    animation-duration: 2s;
+    cursor: pointer;
+
+
+}
+
+
+@keyframes slowMo{
+    from{scale:1.0; background-color: rgb(230, 230, 230);}
+    to{scale:1.1;background-color:#ff00cc;
+    color: white; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+}
+
+#check  input:checked {
+    background-color: palevioletred;
+}
